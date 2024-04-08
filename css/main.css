@@ -1,0 +1,324 @@
+
+.logo{
+    font-size:larger;
+    font-weight: bold;
+
+}
+.top{
+    position: fixed;
+}
+.link{
+    font-size: large;
+    font-weight: bold;
+}
+.animation{
+    animation: box 2s linear 1;
+}
+@keyframes box{
+    0%{
+        transform: translatey(-50px);
+
+    }
+    100%{
+        transform: translatey(15px) ;
+    }
+}
+.design{
+    border-radius:50px;
+   border-top-left-radius: 100px;
+   border-bottom-right-radius: 100px;
+    width: 450px;
+    outline: none;
+    border: none;
+    box-shadow: 12px 12px 15px rgb(168, 157, 157);
+    
+
+    
+    
+}
+.animation2{
+
+    animation:new 2s ease-in-out 1;
+    transition: 2s;
+}
+@keyframes new{
+    0%{
+        transform: translatey(-100px);
+    }
+    100%{
+        transform: translatey(10px);
+    }
+}
+.animation3{
+    animation:another 2s linear 1;
+    transition: 2s;
+}
+@keyframes another{
+    0%{
+        transform: translateX(-200px);
+    
+    }
+    100%{
+        transform: translateX(20px);
+    }
+}
+.animation4{
+    animation: about 2s linear 1;
+}
+@keyframes about {
+    0%{
+        transform: translateX(-200px);
+    }
+    100%{
+        transform:translateX(-10px); 
+    }
+}
+.dk{
+    font-size: 30px;
+    margin: 10px;
+}
+.another-img{
+    border-top: 5px solid rgb(204, 110, 126);
+    border-bottom: 5px solid rgb(191, 204, 9);
+    border-left: 5px solid #00ffff;
+    border-right: 5px solid #00ffff;
+    box-shadow: 10px 5px 15px rgba(0,255,255),
+    -10px -5px 15px rgba(0,255,255)
+    ;
+}
+.box{
+    box-shadow: 10px 10px 10px rgb(45, 45, 197),
+    -10px -10px 10px rgb(45, 45, 197)
+    
+    ;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+.percentage{
+    animation: move 1s linear forwards;
+    width: 0px;
+    transition: 1s;
+}
+@keyframes move{
+    100%{
+        width: 95%;
+
+
+    }
+}
+.percentage2{
+    animation: css 1s linear forwards;
+    width: 0px;
+    transition: 1s;
+}
+@keyframes css{
+    100%{
+        width: 85%;
+    }
+}
+.percentage3{
+    animation: bootstrap 1s linear forwards;
+    transition: 1s;
+    width:0px;
+}
+.percentage4{
+    animation: js 1s linear forwards;
+    transition: 1s;
+    width: 0px;
+}
+@keyframes js{
+    100%{
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+@keyframes bootstrap{
+    100%{
+        width:75%;
+    }
+}
+
+
+.professional{
+    flex-direction: column;
+    position: relative;
+}
+.po{
+    position: absolute;
+   top: 33px;
+}
+
+
+.for{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    box-shadow: 5px 5px 8px rgba(0,255,255),
+    -5px -5px 8px rgba(0,255,255);
+}
+
+.forhover li a i:hover {
+    transform: translatey(10px) skew(5deg) scale(1);
+    
+    
+
+
+}
+.dk:hover{
+    transform: translatey(10px) skew(5deg) scale(1);
+
+}
+@media (max-width:576px){
+     
+    .adjustment{
+        margin-top: 200px;
+        
+       
+    }
+    .html{
+        top: 800px;
+
+        
+    }
+    .forxs{
+      width: 80%;
+    }
+   
+    .more{
+        width: 50% !important;
+       
+    }
+    .btn{
+        box-shadow: 5px 5px 8px rgb(41, 116, 116),
+        -5px -5px 8px rgb(32, 124, 124);
+
+    }
+     .New{
+        box-shadow: 5px 5px 8px rgb(41, 116, 116),
+        -5px -5px 8px rgb(32, 124, 124) !important;
+    }  
+    .forsm{
+        margin-left: 300px !important;
+    }
+    .forcontact{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+@media (max-width:992px){
+    
+    .adjustment{
+        margin-top: 0px;
+        height: 100px;
+    }
+    .html{
+        margin-top: 200px;
+    }
+    .form{
+        margin-top: 250px !important;
+    }
+    .more{
+        width: 50% !important;
+    }
+    .forcontact{
+        display: flex;
+        flex-direction: column;
+        
+    }
+   
+}
+@media (max-width:768px){
+    main{
+        margin-top: 480px;
+    }
+    .adjustment{
+        margin-top: 400px !important;
+    }
+    .html{
+      
+       margin-top: 500px !important;
+    }
+    .more{
+        width: 50% !important;
+    }
+    
+    
+    .professional{
+        margin-top: 300px;
+    }
+    
+  
+    
+}
+@media (max-width:1200px){
+    .adjustment{
+        margin-top: 150px;
+    }
+    .professional{
+        margin-top: 100px;
+    }
+    .forrow{
+        margin-top: 300px;
+    }
+    .html{
+        margin-top: 250px;
+    }
+    .more{
+        width: 50% !important;
+    }
+    .forcenter{
+        margin-right: 50% !important;
+       }
+        
+}
+@media (max-width:992px){
+    .professional{
+        top: 130px;
+    }
+    .adjustment{
+      margin-top: 200px;
+    }
+    #contact{
+        margin-top: 450px;
+    }
+    .forcontact{
+        display: flex;
+        
+        justify-content: center;
+    }
+    .more{
+        width: 50% !important;
+    }
+  
+    
+
+
+    
+}
+@media (max-width:1400px){
+    .adjustment{
+        margin-top: 100px;
+    }
+    .html{
+        margin-top: 200px;
+    }
+    .more{
+        width: 50% !important;
+    }
+}
+
+
+
+
